@@ -10,4 +10,8 @@
 
 @interface YCGChartTableViewCell : UITableViewCell
 
+@property (strong, nonatomic) IBOutlet UIView *amountView;
+@property (strong, nonatomic) IBOutlet UIView *summaryView;
+
+
 @end

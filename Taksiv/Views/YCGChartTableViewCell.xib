@@ -25,6 +25,10 @@
                     </view>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="amountView" destination="0ty-iM-VYT" id="gKP-yg-oMH"/>
+                <outlet property="summaryView" destination="6DN-i1-GsI" id="DIQ-fG-Ra3"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

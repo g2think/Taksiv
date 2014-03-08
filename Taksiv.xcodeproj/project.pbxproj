@@ -22,6 +22,8 @@
 		D770090918CBB12D0041CC34 /* YCGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D770090818CBB12D0041CC34 /* YCGTableViewController.m */; };
 		D770090B18CBB3CC0041CC34 /* YCGChartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */; };
 		D770090E18CBB4740041CC34 /* YCGChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */; };
+		D7E8197918CBC9500080EA72 /* YCGTaksiv.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8197818CBC9500080EA72 /* YCGTaksiv.m */; };
+		D7E8197E18CBCF180080EA72 /* YCGAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8197D18CBCF180080EA72 /* YCGAddView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCGChartTableViewCell.xib; sourceTree = "<group>"; };
 		D770090C18CBB4740041CC34 /* YCGChartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGChartTableViewCell.h; sourceTree = "<group>"; };
 		D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGChartTableViewCell.m; sourceTree = "<group>"; };
+		D7E8197718CBC9500080EA72 /* YCGTaksiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGTaksiv.h; sourceTree = "<group>"; };
+		D7E8197818CBC9500080EA72 /* YCGTaksiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGTaksiv.m; sourceTree = "<group>"; };
+		D7E8197C18CBCF180080EA72 /* YCGAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGAddView.h; sourceTree = "<group>"; };
+		D7E8197D18CBCF180080EA72 /* YCGAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGAddView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 		D77008D718CBB0260041CC34 /* Taksiv */ = {
 			isa = PBXGroup;
 			children = (
+				D7E8197A18CBCA510080EA72 /* Helpers */,
 				D770090118CBB0820041CC34 /* App */,
 				D770090518CBB0CC0041CC34 /* Model */,
 				D770090618CBB0E20041CC34 /* Views */,
@@ -175,6 +182,8 @@
 		D770090518CBB0CC0041CC34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D7E8197718CBC9500080EA72 /* YCGTaksiv.h */,
+				D7E8197818CBC9500080EA72 /* YCGTaksiv.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,8 +194,17 @@
 				D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */,
 				D770090C18CBB4740041CC34 /* YCGChartTableViewCell.h */,
 				D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */,
+				D7E8197C18CBCF180080EA72 /* YCGAddView.h */,
+				D7E8197D18CBCF180080EA72 /* YCGAddView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D7E8197A18CBCA510080EA72 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E8197918CBC9500080EA72 /* YCGTaksiv.m in Sources */,
 				D770090418CBB0C10041CC34 /* YCGAppDelegate.m in Sources */,
+				D7E8197E18CBCF180080EA72 /* YCGAddView.m in Sources */,
 				D77008DE18CBB0260041CC34 /* main.m in Sources */,
 				D770090E18CBB4740041CC34 /* YCGChartTableViewCell.m in Sources */,
 				D770090918CBB12D0041CC34 /* YCGTableViewController.m in Sources */,
@@ -490,6 +510,7 @@
 				D77008FC18CBB0260041CC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D77008FD18CBB0260041CC34 /* Build configuration list for PBXNativeTarget "TaksivTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				D77008FF18CBB0260041CC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
