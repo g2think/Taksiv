@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77008D218CBB0260041CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008D118CBB0260041CC34 /* Foundation.framework */; };
+		D77008D418CBB0260041CC34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008D318CBB0260041CC34 /* CoreGraphics.framework */; };
+		D77008D618CBB0260041CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008D518CBB0260041CC34 /* UIKit.framework */; };
+		D77008DC18CBB0260041CC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D77008DA18CBB0260041CC34 /* InfoPlist.strings */; };
+		D77008DE18CBB0260041CC34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D77008DD18CBB0260041CC34 /* main.m */; };
+		D77008E418CBB0260041CC34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77008E318CBB0260041CC34 /* Images.xcassets */; };
+		D77008EB18CBB0260041CC34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008EA18CBB0260041CC34 /* XCTest.framework */; };
+		D77008EC18CBB0260041CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008D118CBB0260041CC34 /* Foundation.framework */; };
+		D77008ED18CBB0260041CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77008D518CBB0260041CC34 /* UIKit.framework */; };
+		D77008F518CBB0260041CC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D77008F318CBB0260041CC34 /* InfoPlist.strings */; };
+		D77008F718CBB0260041CC34 /* TaksivTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D77008F618CBB0260041CC34 /* TaksivTests.m */; };
+		D770090418CBB0C10041CC34 /* YCGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D770090318CBB0C10041CC34 /* YCGAppDelegate.m */; };
+		D770090918CBB12D0041CC34 /* YCGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D770090818CBB12D0041CC34 /* YCGTableViewController.m */; };
+		D770090B18CBB3CC0041CC34 /* YCGChartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */; };
+		D770090E18CBB4740041CC34 /* YCGChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D77008EE18CBB0260041CC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77008C618CBB0260041CC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77008CD18CBB0260041CC34;
+			remoteInfo = Taksiv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D77008CE18CBB0260041CC34 /* Taksiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taksiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77008D118CBB0260041CC34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D77008D318CBB0260041CC34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D77008D518CBB0260041CC34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D77008D918CBB0260041CC34 /* Taksiv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taksiv-Info.plist"; sourceTree = "<group>"; };
+		D77008DB18CBB0260041CC34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D77008DD18CBB0260041CC34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D77008DF18CBB0260041CC34 /* Taksiv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taksiv-Prefix.pch"; sourceTree = "<group>"; };
+		D77008E318CBB0260041CC34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D77008E918CBB0260041CC34 /* TaksivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaksivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77008EA18CBB0260041CC34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D77008F218CBB0260041CC34 /* TaksivTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaksivTests-Info.plist"; sourceTree = "<group>"; };
+		D77008F418CBB0260041CC34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D77008F618CBB0260041CC34 /* TaksivTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaksivTests.m; sourceTree = "<group>"; };
+		D770090218CBB0C10041CC34 /* YCGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGAppDelegate.h; sourceTree = "<group>"; };
+		D770090318CBB0C10041CC34 /* YCGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGAppDelegate.m; sourceTree = "<group>"; };
+		D770090718CBB12D0041CC34 /* YCGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGTableViewController.h; sourceTree = "<group>"; };
+		D770090818CBB12D0041CC34 /* YCGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGTableViewController.m; sourceTree = "<group>"; };
+		D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCGChartTableViewCell.xib; sourceTree = "<group>"; };
+		D770090C18CBB4740041CC34 /* YCGChartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCGChartTableViewCell.h; sourceTree = "<group>"; };
+		D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCGChartTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77008CB18CBB0260041CC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77008D418CBB0260041CC34 /* CoreGraphics.framework in Frameworks */,
+				D77008D618CBB0260041CC34 /* UIKit.framework in Frameworks */,
+				D77008D218CBB0260041CC34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77008E618CBB0260041CC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77008EB18CBB0260041CC34 /* XCTest.framework in Frameworks */,
+				D77008ED18CBB0260041CC34 /* UIKit.framework in Frameworks */,
+				D77008EC18CBB0260041CC34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77008C518CBB0260041CC34 = {
+			isa = PBXGroup;
+			children = (
+				D77008D718CBB0260041CC34 /* Taksiv */,
+				D77008F018CBB0260041CC34 /* TaksivTests */,
+				D77008D018CBB0260041CC34 /* Frameworks */,
+				D77008CF18CBB0260041CC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77008CF18CBB0260041CC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77008CE18CBB0260041CC34 /* Taksiv.app */,
+				D77008E918CBB0260041CC34 /* TaksivTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77008D018CBB0260041CC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77008D118CBB0260041CC34 /* Foundation.framework */,
+				D77008D318CBB0260041CC34 /* CoreGraphics.framework */,
+				D77008D518CBB0260041CC34 /* UIKit.framework */,
+				D77008EA18CBB0260041CC34 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77008D718CBB0260041CC34 /* Taksiv */ = {
+			isa = PBXGroup;
+			children = (
+				D770090118CBB0820041CC34 /* App */,
+				D770090518CBB0CC0041CC34 /* Model */,
+				D770090618CBB0E20041CC34 /* Views */,
+				D770090018CBB0370041CC34 /* Controllers */,
+				D77008E318CBB0260041CC34 /* Images.xcassets */,
+				D77008D818CBB0260041CC34 /* Supporting Files */,
+			);
+			path = Taksiv;
+			sourceTree = "<group>";
+		};
+		D77008D818CBB0260041CC34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77008D918CBB0260041CC34 /* Taksiv-Info.plist */,
+				D77008DA18CBB0260041CC34 /* InfoPlist.strings */,
+				D77008DD18CBB0260041CC34 /* main.m */,
+				D77008DF18CBB0260041CC34 /* Taksiv-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D77008F018CBB0260041CC34 /* TaksivTests */ = {
+			isa = PBXGroup;
+			children = (
+				D77008F618CBB0260041CC34 /* TaksivTests.m */,
+				D77008F118CBB0260041CC34 /* Supporting Files */,
+			);
+			path = TaksivTests;
+			sourceTree = "<group>";
+		};
+		D77008F118CBB0260041CC34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77008F218CBB0260041CC34 /* TaksivTests-Info.plist */,
+				D77008F318CBB0260041CC34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D770090018CBB0370041CC34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D770090718CBB12D0041CC34 /* YCGTableViewController.h */,
+				D770090818CBB12D0041CC34 /* YCGTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D770090118CBB0820041CC34 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D770090218CBB0C10041CC34 /* YCGAppDelegate.h */,
+				D770090318CBB0C10041CC34 /* YCGAppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D770090518CBB0CC0041CC34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D770090618CBB0E20041CC34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D770090A18CBB3CC0041CC34 /* YCGChartTableViewCell.xib */,
+				D770090C18CBB4740041CC34 /* YCGChartTableViewCell.h */,
+				D770090D18CBB4740041CC34 /* YCGChartTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77008CD18CBB0260041CC34 /* Taksiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77008FA18CBB0260041CC34 /* Build configuration list for PBXNativeTarget "Taksiv" */;
+			buildPhases = (
+				D77008CA18CBB0260041CC34 /* Sources */,
+				D77008CB18CBB0260041CC34 /* Frameworks */,
+				D77008CC18CBB0260041CC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taksiv;
+			productName = Taksiv;
+			productReference = D77008CE18CBB0260041CC34 /* Taksiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77008E818CBB0260041CC34 /* TaksivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77008FD18CBB0260041CC34 /* Build configuration list for PBXNativeTarget "TaksivTests" */;
+			buildPhases = (
+				D77008E518CBB0260041CC34 /* Sources */,
+				D77008E618CBB0260041CC34 /* Frameworks */,
+				D77008E718CBB0260041CC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77008EF18CBB0260041CC34 /* PBXTargetDependency */,
+			);
+			name = TaksivTests;
+			productName = TaksivTests;
+			productReference = D77008E918CBB0260041CC34 /* TaksivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77008C618CBB0260041CC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YCG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yaakov Gamliel";
+				TargetAttributes = {
+					D77008E818CBB0260041CC34 = {
+						TestTargetID = D77008CD18CBB0260041CC34;
+					};
+				};
+			};
+			buildConfigurationList = D77008C918CBB0260041CC34 /* Build configuration list for PBXProject "Taksiv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D77008C518CBB0260041CC34;
+			productRefGroup = D77008CF18CBB0260041CC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77008CD18CBB0260041CC34 /* Taksiv */,
+				D77008E818CBB0260041CC34 /* TaksivTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77008CC18CBB0260041CC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D770090B18CBB3CC0041CC34 /* YCGChartTableViewCell.xib in Resources */,
+				D77008DC18CBB0260041CC34 /* InfoPlist.strings in Resources */,
+				D77008E418CBB0260041CC34 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77008E718CBB0260041CC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77008F518CBB0260041CC34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77008CA18CBB0260041CC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D770090418CBB0C10041CC34 /* YCGAppDelegate.m in Sources */,
+				D77008DE18CBB0260041CC34 /* main.m in Sources */,
+				D770090E18CBB4740041CC34 /* YCGChartTableViewCell.m in Sources */,
+				D770090918CBB12D0041CC34 /* YCGTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77008E518CBB0260041CC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77008F718CBB0260041CC34 /* TaksivTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77008EF18CBB0260041CC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77008CD18CBB0260041CC34 /* Taksiv */;
+			targetProxy = D77008EE18CBB0260041CC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D77008DA18CBB0260041CC34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77008DB18CBB0260041CC34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D77008F318CBB0260041CC34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77008F418CBB0260041CC34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77008F818CBB0260041CC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D77008F918CBB0260041CC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77008FB18CBB0260041CC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taksiv/Taksiv-Prefix.pch";
+				INFOPLIST_FILE = "Taksiv/Taksiv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D77008FC18CBB0260041CC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taksiv/Taksiv-Prefix.pch";
+				INFOPLIST_FILE = "Taksiv/Taksiv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D77008FE18CBB0260041CC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taksiv.app/Taksiv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taksiv/Taksiv-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaksivTests/TaksivTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D77008FF18CBB0260041CC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taksiv.app/Taksiv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taksiv/Taksiv-Prefix.pch";
+				INFOPLIST_FILE = "TaksivTests/TaksivTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77008C918CBB0260041CC34 /* Build configuration list for PBXProject "Taksiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77008F818CBB0260041CC34 /* Debug */,
+				D77008F918CBB0260041CC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77008FA18CBB0260041CC34 /* Build configuration list for PBXNativeTarget "Taksiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77008FB18CBB0260041CC34 /* Debug */,
+				D77008FC18CBB0260041CC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D77008FD18CBB0260041CC34 /* Build configuration list for PBXNativeTarget "TaksivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77008FE18CBB0260041CC34 /* Debug */,
+				D77008FF18CBB0260041CC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77008C618CBB0260041CC34 /* Project object */;
+}
